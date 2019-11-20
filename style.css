@@ -1,0 +1,181 @@
+/*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*
+FONTS
+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*/
+@import url('https://fonts.googleapis.com/css?family=Avenir&display=swap');
+
+
+/*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*
+BODY STYLING
+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #ffe4d5;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    text-align: justify;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*
+LOGOS
+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*/
+.logo-left {
+    width: 200px;
+    height: 250px;
+    display: flex;
+    float: left;
+    padding: 10px;
+}
+
+/*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*
+ARTS PAGE GRID
+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*
+.pod-item-1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+*/
+
+/*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*
+IMAGES
+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*/
+img {
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+/*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*
+NAVIGATION
+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*/
+nav ul li {
+    display: flex;
+    float: right;
+}
+
+/*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*
+HEADER STYLING
+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*/
+.header {
+    background-color: #f7f2f2;
+    color: black;
+    text-align: center;
+}
+
+/*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*
+HEADING IMAGES
+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*/
+
+.heading-img-1,
+.heading-img-2,
+.heading-img-4 {
+    height: auto;
+    width: 300px;
+}
+
+.heading-img-3,
+.heading-img-5 {
+    height: 300px;
+    width: auto;
+}
+
+/*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*
+PARAGRAPH STYLING
+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*/
+.description,
+.event_date {
+    color: black;
+    text-align: justify;
+    padding: 30px 350px;
+}
+
+.event_date {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+/*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*
+LAYOUT - RESPONSIVE
++*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*
+when device turns from desktop to mobile
+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*/
+@media screen and (max-width:600px) {
+    .description {
+        width: 100%;
+    }
+}
+
+
+
+/*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*
+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*/
+.content {
+    padding: 20px 30px;
+    background-color: #f1f1f1;
+    position: relative;
+    border-radius: 6px;
+}
+
+
+/*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*
+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*/
+.topics-wrapper {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    background-color: #f4f2f2;
+    padding: 10vw;
+    text-align: center;
+    color: black;
+    text-align: justify;
+}
+
+h2 a {
+    color: black;
+}
+
+h2 a:hover {
+    color: white;
+}
+
+/*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*
+FOOTER STYLING
+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*/
+footer {
+    background-color: white;
+}
+
+.about-description {
+    font-family: "Montserrat", sans-serif;
+    color: black;
+}
